@@ -31,8 +31,11 @@ git add: stage changes for commit.
 git commit: Save changes with a message showing what you changed.
 git push: Send changes from local repository to remote repository.
 git pull: Download changes from remote repository to local repository. this keeps you up to date with the changes someone else makes.
-git branch: used to create new branch. branches allows u to work on different versions of the projrct simultaneously.
+git branch: used to create new branch. branches allows u to work on different versions of the project simultaneously.
 git merge: used to combine branches. is used to add feature branches into main branch.
 git checkout: To switch between branches. also can be used to restore specific versions.
 
-##Using GitHub for remote collaboration
+##Activities
+created a repository named Task_aifer and also created a branch named Day_1. created 4 commits in it. pushed the changes into the remote repository. cloned the repository to workon locally. 
+
+
