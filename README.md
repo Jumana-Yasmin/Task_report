@@ -36,6 +36,7 @@ git merge: used to combine branches. is used to add feature branches into main b
 git checkout: To switch between branches. also can be used to restore specific versions.
 
 ##Activities
-created a repository named Task_aifer and also created a branch named Day_1. created 4 commits in it. pushed the changes into the remote repository. cloned the repository to workon locally. 
+created a repository named Task_aifer and also created a branch named Day_1. created 4 commits in it. created a branch named day_2. pushed the changes into the remote repository. cloned the repository to work on locally. 
 
-
+##References
+GitHub desktop tutorial tutorial, chatgpt, Git documentation
