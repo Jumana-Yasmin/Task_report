@@ -50,6 +50,6 @@ and got the output:
 Welcome Jumana Yasmin !
 step 11: to use get, post requests in flask: create a folder and under templates create two html pages for a simple calculator, calculate.html is used to prompt the user to input the numbers for addition. answer.html ives the answer to the user.
 step 12: a pyhon file named main.py is created to do the operation.
-step 13: get, post methods are used in this 
+step 13: get, post methods are used for request and resposes
 
 ###REFERENCES: Flask Documentation,geeksforgeeks.com
