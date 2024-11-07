@@ -8,7 +8,7 @@
  ● Setting up a basic Flask application
  ● Routing in Flask: handling GET and POST requests
  ● Creating a simple REST API endpoint
- Activities:
+ __Activities__:
  1. Install Flask and set up a basic project.
  2. Create simple routes (/hello, /user/<name>) to handle different
  requests.
@@ -17,7 +17,7 @@
  4. Recommended resources: Flask documentation, Flask for Beginners
  tutorials on YouTube
 
-#FLASK
+# FLASK
 Flask is a lightweight and flexible web framework for Python. It’s designed to make getting started with web development quick and easy, while still being powerful enough to build complex web applications.
 ##Route
 App Routing means mapping the URLs to a specific function that will handle the logic for that URL. Modern web frameworks use more meaningful URLs to help users remember the URLs and make navigation simpler. 
@@ -26,7 +26,7 @@ Example: In our application, the URL (“/”) is associated with the root URL. 
 
 To bind a function to an URL path we use the app.route decorator.
 
-##ACTIVITIES
+## ACTIVITIES
 step 1: downloaded flask using pip install flask.
 step 2: opened visual studio and create a folder named practice
 step 3: created a file named main.py and imported the flask library.
@@ -48,8 +48,5 @@ def username(name):
 step 10: after running the code and opening in browser wrote /user/Jumana Yasmin beside path(http://127.0.0.1:5000/user/Jumana%20Yasmin)
 and got the output:
 Welcome Jumana Yasmin !
-step 11: to use get, post requests in flask: create a folder and under templates create two html pages for a simple calculator, calculate.html is used to prompt the user to input the numbers for addition. answer.html ives the answer to the user.
-step 12: a pyhon file named main.py is created to do the operation.
-step 13: get, post methods are used for request and resposes
-
-###REFERENCES: Flask Documentation,geeksforgeeks.com
+step 11: created a python file. created a dictionary with key-value pairs. used get, post, delete, put method to retrieve, create, delete, and update the dictionary.
+### REFERENCES: Flask Documentation,geeksforgeeks.com
