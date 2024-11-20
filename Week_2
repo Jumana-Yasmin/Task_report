@@ -1,0 +1,134 @@
+# Day 7: Intermediate Python for Data Science
+
+## Class & Objects
+- **Class** serves as a blueprint, while **objects** are instances of that class.
+- Practiced Python basics to better understand:
+  - Loops
+  - Functions
+  - List comprehensions
+
+## Arrays & NumPy
+- Imported NumPy and created arrays using the `np.array()` function.
+- Performed various array manipulations, including:
+  - Indexing and slicing arrays
+  - Modifying elements by index
+  - Array calculations, such as:
+    - Concatenation (adding new arrays)
+    - Arithmetic operations (addition, subtraction, division, multiplication)
+  - Calculating transpose, sum, average, minimum, and maximum of arrays
+
+## Pandas & Matplotlib
+- Imported **Pandas** and **Matplotlib** for data manipulation and visualization.
+- Loaded a dataset from Kaggle using Pandas and explored the data through various operations.
+- Performed data manipulation and cleaning with Pandas.
+- Created visualizations with Matplotlib, including:
+  - Bar graphs
+  - Histograms
+  - Scatter plots
+
+---
+
+# Day 8: Introduction to SQL for Data Science
+
+## SQLite Overview
+- SQLite works with a single database at a time, unlike multi-database environments.
+- Downloaded SQLite and created a database and tables.
+- Observed differences between **MySQL** and **SQLite**, such as:
+  - MySQL uses `INT`, whereas SQLite uses `INTEGER`.
+  - MySQL uses `VARCHAR`, whereas SQLite uses `TEXT`.
+  - MySQL uses `DECIMAL`, whereas SQLite uses `REAL`.
+  - String concatenation: MySQL uses `CONCAT()`, whereas SQLite uses `|| '' ||`.
+  - Foreign keys:
+    - Enabled manually in SQLite.
+    - Enabled by default in MySQL.
+
+## Commands Practiced
+- **Created a database** in the `Downloads` directory using SQLite3 (`database_name.db`) and created tables. 
+- Manipulated tables using the following commands:
+
+### SELECT
+- Used to retrieve data from a table.
+
+### WHERE
+- Used to filter data by applying conditions.
+
+### ORDER BY
+- Arranges data in ascending or descending order.
+
+### LIMIT
+- Limits the number of rows returned by a query.
+
+### UPDATE
+- Used to modify existing rows.
+
+### DELETE
+- Deletes rows from a table.
+
+### JOIN
+- Combines data from multiple tables:
+  - **LEFT JOIN**: Joins all rows from the left table but only matched rows from the right table.
+  - **RIGHT JOIN**: Joins all rows from the right table but only matched rows from the left table.
+  - **INNER JOIN**: Joins matched rows from both tables.
+
+### GROUP BY
+- Groups rows with the same values into summary rows, often using aggregate functions:
+  - `COUNT()`, `SUM()`, `AVG()`, `MAX()`, and `MIN()`.
+
+---
+
+# Day 9: Integrating SQL with Python (using SQLite)
+
+- Imported `sqlite3` into a Python file.
+- Created a database and tables, then inserted data into the table.
+- Imported Pandas and Matplotlib libraries to perform basic data manipulation and visualization.
+
+---
+
+# Day 10: Introduction to Machine Learning Concepts
+
+## Supervised vs. Unsupervised Learning
+- **Supervised Learning**:
+  - Models are trained using labeled datasets.
+  - Example: Linear Regression.
+- **Unsupervised Learning**:
+  - Works with unlabeled data.
+  - Machine isn’t trained prior and finds patterns and structures in the input data.
+  - Often used for clustering.
+
+---
+
+# Day 11: Building Your First Machine Learning Model (Classification)
+
+## Steps:
+1. Imported a dataset.
+2. Divided the dataset into:
+   - **Training set**: Used for learning (`x_train`, `y_train`).
+   - **Testing set**: Used for evaluation (`x_test`, `y_test`).
+3. Initialized the model (Logistic Regression).
+4. Trained the model using `x_train` and `y_train`.
+5. Made predictions on the test data using `x_test`.
+6. Calculated evaluation metrics:
+   - Accuracy
+   - Precision
+   - Recall
+
+---
+
+# Day 12: Building Your First Machine Learning Model (Regression)
+
+## Steps:  
+- Selected the **California Housing Dataset** from scikit-learn.  
+- Predicting **median house prices** based on factors like:  
+  - Median income.  
+  - Average number of rooms.  
+  - Population.  
+- Imported libraries: **scikit-learn**, **Pandas**, **Matplotlib**, and **NumPy**.  
+- Split the dataset into training and testing sets using `train_test_split`.  
+- Trained a **Linear Regression** model with scikit-learn's `LinearRegression`.  
+- Used the model to make predictions on the test data.    
+- Evaluated model performance using **Mean Squared Error (MSE)**.  
+- Plotted:  
+  - **Actual vs Predicted Values**: To visualize how well the model predicted.  
+  - **Residual Plot**: To observe prediction errors.  
+
+---
