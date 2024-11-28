@@ -1,0 +1,63 @@
+# Day 13: Introduction to Django
+
+- Created a virtual environment and installed Django and `mysqlclient`.
+- Created a new Django project inside the directory and also created an app.
+- Ran the server using the `manage.py` file.
+
+## Changes Made:
+- Modified `views.py` in the app to create a simple view function that returns a response.
+- Created a `urls.py` file inside the app and defined URL patterns that point to the app's views.
+- Updated the `urls.py` file in the project directory to include the app's `urls.py`.
+- Added the app name to the `INSTALLED_APPS` list in the `settings.py` file to register the app.
+
+## Running the Server:
+- Opened the command line (cmd) and ran the project using the following command:
+  py manage.py runserver
+
+---
+
+# Day 14: Django Models and the Admin Interface
+ 
+- Data is created in objects, called models, which are essentially tables in a database.
+- Created a simple model with a person's first name and last name (details of the table to create).
+- Used py manage.py makemigrations to set up the database after adding the app name under INSTALLED_APPS.
+- The table details were saved under migrations.
+- Ran py manage.py migrate to create the table in the database.
+- Used py manage.py sqlmigrate members 001 to view the SQL commands for the migration.
+- Performed CRUD operations (Create, Read, Update, Delete) on the database using Python's shell.
+
+---
+
+# Day 15: Django Views and Templates
+
+- Created a templates folder under the app and added multiple HTML files.
+- Used views.py to return responses and point to the HTML templates.
+- Designed web pages to display data stored in the database as per requirements.
+- Created a master template named master.html and extended all other templates from it.
+- Customized the templates with background colors, font sizes, and other styling changes.
+
+---
+
+# Day 16: Django URL Routing and Forms
+
+- Defined URLs to create paths for running the project.
+- The process begins with the project-level urls.py, which points to the app-level urls.py.
+- Created a forms.py file and defined a StudentForm class for handling forms.
+- Imported the form into views.py and rendered it in an HTML template.
+- Designed a 404 error page (404.html) to display when errors occur.
+
+---
+
+# Day 17: Django Static Files and Media
+- Created CSS and JavaScript files to style the HTML templates and add interactive elements.
+- Used JavaScript to display pop-up notifications.
+- Added a column in the database to allow users to upload image files.
+- Modified the form to handle file uploads and ensured uploaded files are stored in the media folder.
+
+
+
+
+
+
+
+
