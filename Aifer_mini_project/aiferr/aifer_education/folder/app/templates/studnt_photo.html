@@ -1,0 +1,7 @@
+{% for photo in student %}
+    <h2>{{ photo.name }}</h2>
+    <p>{{ photo.place }}</p>
+    {% if photo.photo %}
+        <img src="{{ photo.photo.url }}" alt="{{ photo.name }}">
+    {% endif %}
+{% endfor %}

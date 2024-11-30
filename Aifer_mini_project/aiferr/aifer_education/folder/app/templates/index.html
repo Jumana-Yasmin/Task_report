@@ -1,0 +1,19 @@
+{% extends "master.html" %}
+<div id="index-page"></div>
+{% load static %}
+<link rel="stylesheet" href="{% static 'app/style.css' %}">
+
+{% block title%}
+    AIFER EDUCATION
+{%endblock %}
+
+{% block content %}
+<title>
+    <center>AIFER EDUCATION</center>
+</title>
+<h1 id="heading1"><center>Welcome to Aifer Education</center></h1>
+<h3 class="main"><center>Home Page</center></h3>
+<p id="para1">click <a href="/register/">here</a> to register</p>
+<p id="para2">click <a href="https://www.aifer.in">here</a> to open the official website</p>
+</div>
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends "master.html" %}
+
+{% block title %}
+    Student Registration
+{% endblock %}
+{% block content %}
+<div id="stdnt">
+<title id="t2">Student Registration</title>
+<h1 id="heading2">Fill the Registration Form</h1>
+<form method="post" enctype="multipart/form-data" id="form">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" id="submit">Submit</button>
+</form>
+<p id="para3">click here to go back to<a href="/"> Home</a></p>
+</div>
+{% endblock %}
